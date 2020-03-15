@@ -1,0 +1,6 @@
+demo/
+dist/
+coverage/
+node_modules/
+
+jest.config.js

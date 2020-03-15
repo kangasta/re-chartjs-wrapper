@@ -1,0 +1,32 @@
+language: node_js
+node_js:
+  - node
+addons:
+  code_climate:
+    repo_token: $CODECLIMATE_TOKEN
+
+script: npm test -- --coverage --verbose;
+after_script:
+  - npm install -g codeclimate-test-reporter
+  - codeclimate-test-reporter < coverage/lcov.info
+
+before_deploy:
+  - npm pack
+  - npm run build
+deploy:
+  - provider: releases
+    token: $GITHUB_TOKEN
+    file_glob: true
+    file: "*.tgz"
+    cleanup: false
+    edge: true
+    on:
+      tags: true
+  - provider: npm
+    email: "toni.ar.kangas@gmail.com"
+    api_token: $NPM_TOKEN
+    cleanup: false
+    edge: true
+    on:
+      tags: true
+
