@@ -21,7 +21,7 @@ function App() {
       <h1>re-chartjs-wrapper</h1>
       <p style={{textAlign: 'left'}}>React wrapper for Chart.js charts.</p>
       <div style={{display: 'block', position: 'relative', maxHeight: '400px', maxWidth: '800px'}}>
-        <Chart type='doughnut' data={{datasets: [{data, backgroundColor: ['DarkOrange', 'DarkSlateGray', 'DarkSlateBlue']}], labels: ['A', 'B', 'C']}}/>
+        <Chart type='doughnut' data={{datasets: [{data, backgroundColor: ['#FF8C00', '#2F4F4F', '#483D8B']}], labels: ['A', 'B', 'C']}}/>
       </div>
     </div>
   );
