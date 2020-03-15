@@ -10,7 +10,7 @@
     "@types/node": "^12.12.30",
     "@types/react": "^16.9.23",
     "@types/react-dom": "^16.9.5",
-    "re-chartjs": "file:../re-chartjs-0.1.0.tgz",
+    "re-chartjs-wrapper": "file:../re-chartjs-wrapper-0.1.0.tgz",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-scripts": "3.4.0",

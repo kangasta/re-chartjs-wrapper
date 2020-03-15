@@ -2,4 +2,4 @@ dist/
 coverage/
 node_modules/
 
-re-chartjs-*.tgz
+re-chartjs-wrapper-*.tgz

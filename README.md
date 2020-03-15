@@ -1,15 +1,15 @@
-# re-chartjs
+# re-chartjs-wrapper
 
-[![Build Status](https://travis-ci.org/kangasta/re-chartjs.svg?branch=master)](https://travis-ci.org/kangasta/re-chartjs)
-[![Maintainability](https://api.codeclimate.com/v1/badges/8e9f59f4bc64750f06a6/maintainability)](https://codeclimate.com/github/kangasta/re-chartjs/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/8e9f59f4bc64750f06a6/test_coverage)](https://codeclimate.com/github/kangasta/re-chartjs/test_coverage)
+[![Build Status](https://travis-ci.org/kangasta/re-chartjs-wrapper.svg?branch=master)](https://travis-ci.org/kangasta/re-chartjs-wrapper)
+[![Maintainability](https://api.codeclimate.com/v1/badges/8e9f59f4bc64750f06a6/maintainability)](https://codeclimate.com/github/kangasta/re-chartjs-wrapper/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/8e9f59f4bc64750f06a6/test_coverage)](https://codeclimate.com/github/kangasta/re-chartjs-wrapper/test_coverage)
 
 React wrapper for Chart.js charts.
 
 ## Installing
 
 ```bash
-npm install re-chartjs
+npm install re-chartjs-wrapper
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ Custom id for chart and be passed in as `id` prop. If no id is given, an random 
 In addition to these five props: `id`, `type`, `data`, `options`, and `configuration`, any props of `<canvas/>` can be given in. These additional props will be passed down to the `<canvas/>` component.
 
 ```jsx
-import { Chart } from 're-chartjs';
+import { Chart } from 're-chartjs-wrapper';
 
 <Chart configuration={configuration}/>
 <Chart type={type} data={data} options={options}/>

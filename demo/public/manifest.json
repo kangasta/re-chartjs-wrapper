@@ -1,6 +1,6 @@
 {
-  "short_name": "re-chartjs demo",
-  "name": "Demo for re-chartjs",
+  "short_name": "re-chartjs-wrapper demo",
+  "name": "Demo for re-chartjs-wrapper",
   "icons": [
     {
       "src": "favicon.ico",
