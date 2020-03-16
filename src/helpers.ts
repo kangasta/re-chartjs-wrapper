@@ -20,7 +20,9 @@ export function getDataUpdater(data?: ChartData): ChartUpdater {
 
     const datasets = data.datasets || [];
 
-    if (!prev.data.datasets) {
+    if (!prev.data) {
+      prev.data = { datasets };
+    } else if (!prev.data.datasets) {
       prev.data.datasets = datasets;
     } else {
       const datasetsN = Math.max(prev.data.datasets.length, datasets.length);
