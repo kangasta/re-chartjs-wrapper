@@ -11,8 +11,8 @@ after_script:
   - codeclimate-test-reporter < coverage/lcov.info
 
 before_deploy:
-  - npm pack
   - npm run build
+  - npm pack
 deploy:
   - provider: releases
     token: $GITHUB_TOKEN
