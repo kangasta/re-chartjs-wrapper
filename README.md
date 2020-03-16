@@ -1,8 +1,8 @@
 # re-chartjs-wrapper
 
 [![Build Status](https://travis-ci.org/kangasta/re-chartjs-wrapper.svg?branch=master)](https://travis-ci.org/kangasta/re-chartjs-wrapper)
-[![Maintainability](https://api.codeclimate.com/v1/badges/8e9f59f4bc64750f06a6/maintainability)](https://codeclimate.com/github/kangasta/re-chartjs-wrapper/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/8e9f59f4bc64750f06a6/test_coverage)](https://codeclimate.com/github/kangasta/re-chartjs-wrapper/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/0e79b63ce1479c8c06b6/maintainability)](https://codeclimate.com/github/kangasta/re-chartjs-wrapper/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/0e79b63ce1479c8c06b6/test_coverage)](https://codeclimate.com/github/kangasta/re-chartjs-wrapper/test_coverage)
 
 React wrapper for Chart.js charts.
 
