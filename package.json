@@ -1,6 +1,6 @@
 {
   "name": "re-chartjs-wrapper",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "React wrapper for Chart.js charts.",
   "repository": {
     "type": "git",
