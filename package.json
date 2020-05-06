@@ -4,7 +4,7 @@
   "description": "React wrapper for Chart.js charts.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kangasta/re-chartjs.git"
+    "url": "https://github.com/kangasta/re-chartjs-wrapper.git"
   },
   "license": "MIT",
   "main": "dist/index.js",
